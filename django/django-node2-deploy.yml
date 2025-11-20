@@ -17,7 +17,7 @@ spec:
       nodeName: kube-node2
       containers:
         - name: django
-          image: dyeoniii/django:13
+          image: dyeoniii/django:15
           env:
             - name: DJANGO_DB_ENGINE
               value: django.db.backends.postgresql
